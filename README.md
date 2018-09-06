@@ -10,6 +10,6 @@ Hello Daniel,
    My name is Maninder Kaur Baria(A00429943). If hard to remember, can be remembered in this way 
    Maninder from Jalandhar (It rhymes).
    Email id: maninderk770@gmail.com
- -> Due to my interest in analytics my focus shifted from software development technologies to learning and trying implementing R more
-   often. It feels great to atleast have some familiarity with the technologies.
+ -> Due to my interest in analytics my focus shifted from software development technologies to learning and trying to implement R more
+   often. It feels great to atleast have some familiarity with the technologies discussed in lecture.
  -> Looking forward to strengthen my concepts in this course.
