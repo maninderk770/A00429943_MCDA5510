@@ -15,7 +15,7 @@ public class Assignment2 {
 		
 		try {
 			consolehandler=new ConsoleHandler();
-			filehandler=new FileHandler("./Logs.log");
+			filehandler=new FileHandler("logs/Logs.log");
 		
 			Log.addHandler(consolehandler);
 			Log.addHandler(filehandler);
