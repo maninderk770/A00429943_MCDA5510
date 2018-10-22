@@ -36,7 +36,7 @@ Hello Daniel,
  Steps:
  
 1) Agile Management
- Worked in a team of 6, together followed the scrum process to priortize the taskes according to different sprints.
+ Worked in a team of 6, together followed the scrum process to priortize the tasks according to different sprints.
 
 2) Documentation -  (In progress)
 -	Requirements document (SRS) 
