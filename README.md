@@ -21,14 +21,14 @@ Hello Daniel,
  
 - Read the data from around more than 200 csv files and wrote all the fields into one csv file.
 - Manipulated data based on the requirements and instructions given to read and write data.
-- Looged all the activities be it success or failure in the log file.
+- Logged all the activities be it success or failure in the log file.
  
  -----------------------------------------------------------------------------------------------------------------------------
  Assignment2 (Java & MySQL)
  
  - Inserted, viewed, deleted and updated data in databases through interface.
  - Used singleton approach to perform the above activities as well as validations made as per the instructions given. 
- - Looged all the activities be it success or failure in the log file.
+ - Logged all the activities be it success or failure in the log file.
  
  -----------------------------------------------------------------------------------------------------------------------------
  Project
