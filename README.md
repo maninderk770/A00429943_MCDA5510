@@ -27,8 +27,8 @@ Hello Daniel,
  Assignment2 (Java & MySQL)
  
  - Inserted, viewed, deleted and updated data in databases through interface.
- - Used singleton approach to perform the above activities.
- - Validations made as per the instructions given. 
+ - Used singleton approach to perform the above activities as well as validations made as per the instructions given. 
+ - Looged all the activities be it success or failure in the log file.
  
  -----------------------------------------------------------------------------------------------------------------------------
  Project
