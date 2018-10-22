@@ -16,18 +16,21 @@ Hello Daniel,
    often. It feels great to atleast have some familiarity with the technologies discussed in lecture.
  - Looking forward to strengthen my concepts in this course.
  
- Assignment1
+ -----------------------------------------------------------------------------------------------------------------------------
+ Assignment1 (Java & CSV Files)
  
-- Read the data from around more than 200 csv files
+- Read the data from around more than 200 csv files and wrote all the fields into one csv file.
+- Manipulated data based on the requirements and instructions given to read and write data.
+- Looged all the activities be it success or failure in the log file.
  
+ -----------------------------------------------------------------------------------------------------------------------------
+ Assignment2 (Java & MySQL)
  
+ - Inserted, viewed, deleted and updated data in databases through interface.
+ - Used singleton approach to perform the above activities.
+ - Validations made as per the instructions given. 
  
- Assignment2
- 
- 
- 
- 
- 
+ -----------------------------------------------------------------------------------------------------------------------------
  Project
  
  Steps:
