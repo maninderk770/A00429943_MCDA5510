@@ -32,16 +32,16 @@ Hello Daniel,
  
  Steps:
  
- 1) Agile Management
+1) Agile Management
  Worked in a team of 6, together followed the scrum process to priortize the taskes according to different sprints.
 
 2) Documentation -  (In progress)
-1.   	Requirements document (SRS) 
-2.	High level design document
-3.	Detailed design documents
-4.	Test Suite
-5.	Test case (single case) 
-6.	Release plan
+-	Requirements document (SRS) 
+- High level design document
+-	Detailed design documents
+-	Test Suite
+-	Test case (single case) 
+-	Release plan
 
  
  
