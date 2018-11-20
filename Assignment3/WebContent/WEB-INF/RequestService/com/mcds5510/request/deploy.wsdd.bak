@@ -1,0 +1,48 @@
+<!-- Use this file to deploy some handlers/chains and services      -->
+<!-- Two ways to do this:                                           -->
+<!--   java org.apache.axis.client.AdminClient deploy.wsdd          -->
+<!--      after the axis server is running                          -->
+<!-- or                                                             -->
+<!--   java org.apache.axis.utils.Admin client|server deploy.wsdd   -->
+<!--      from the same directory that the Axis engine runs         -->
+
+<deployment
+    xmlns="http://xml.apache.org/axis/wsdd/"
+    xmlns:java="http://xml.apache.org/axis/wsdd/providers/java">
+
+  <!-- Services from RequestService WSDL service -->
+
+  <service name="Request" provider="java:RPC" style="wrapped" use="literal">
+      <parameter name="wsdlTargetNamespace" value="http://request.mcds5510.com"/>
+      <parameter name="wsdlServiceElement" value="RequestService"/>
+      <parameter name="schemaQualified" value="http://request.mcds5510.com"/>
+      <parameter name="wsdlServicePort" value="Request"/>
+      <parameter name="className" value="com.mcds5510.request.RequestSoapBindingImpl"/>
+      <parameter name="wsdlPortType" value="Request"/>
+      <parameter name="typeMappingVersion" value="1.2"/>
+      <operation name="update" qname="operNS:update" xmlns:operNS="http://request.mcds5510.com" returnQName="retNS:updateReturn" xmlns:retNS="http://request.mcds5510.com" returnType="rtns:string" xmlns:rtns="http://www.w3.org/2001/XMLSchema" soapAction="" >
+        <parameter qname="pns:id" xmlns:pns="http://request.mcds5510.com" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+        <parameter qname="pns:nameOnCard" xmlns:pns="http://request.mcds5510.com" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+        <parameter qname="pns:cardNumber" xmlns:pns="http://request.mcds5510.com" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+        <parameter qname="pns:unitPrice" xmlns:pns="http://request.mcds5510.com" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+        <parameter qname="pns:quantity" xmlns:pns="http://request.mcds5510.com" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+        <parameter qname="pns:expDate" xmlns:pns="http://request.mcds5510.com" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+      </operation>
+      <operation name="delete" qname="operNS:delete" xmlns:operNS="http://request.mcds5510.com" returnQName="retNS:deleteReturn" xmlns:retNS="http://request.mcds5510.com" returnType="rtns:string" xmlns:rtns="http://www.w3.org/2001/XMLSchema" soapAction="" >
+        <parameter qname="pns:id" xmlns:pns="http://request.mcds5510.com" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+      </operation>
+      <operation name="create" qname="operNS:create" xmlns:operNS="http://request.mcds5510.com" returnQName="retNS:createReturn" xmlns:retNS="http://request.mcds5510.com" returnType="rtns:string" xmlns:rtns="http://www.w3.org/2001/XMLSchema" soapAction="" >
+        <parameter qname="pns:id" xmlns:pns="http://request.mcds5510.com" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+        <parameter qname="pns:nameOnCard" xmlns:pns="http://request.mcds5510.com" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+        <parameter qname="pns:cardNumber" xmlns:pns="http://request.mcds5510.com" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+        <parameter qname="pns:unitPrice" xmlns:pns="http://request.mcds5510.com" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+        <parameter qname="pns:quantity" xmlns:pns="http://request.mcds5510.com" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+        <parameter qname="pns:expDate" xmlns:pns="http://request.mcds5510.com" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+      </operation>
+      <operation name="view" qname="operNS:view" xmlns:operNS="http://request.mcds5510.com" returnQName="retNS:viewReturn" xmlns:retNS="http://request.mcds5510.com" returnType="rtns:string" xmlns:rtns="http://www.w3.org/2001/XMLSchema" soapAction="" >
+        <parameter qname="pns:id" xmlns:pns="http://request.mcds5510.com" type="tns:string" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+      </operation>
+      <parameter name="allowedMethods" value="view update create delete"/>
+
+  </service>
+</deployment>
