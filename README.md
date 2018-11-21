@@ -1,3 +1,6 @@
+# WebServices
+### http://dev.cs.smu.ca:8108/Assignment3_A00429943Client/sampleRequestProxy/TestClient.jsp?endpoint=http://dev.cs.smu.ca:8108/Assignment3_A00429943/services/Request
+
 # A00429943_MCDA5510
 Software Dev in Bus Envir - MCDA 5510
 
